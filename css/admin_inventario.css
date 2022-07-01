@@ -142,8 +142,8 @@ main {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
   margin-top: 1rem;
 }
 
@@ -348,4 +348,12 @@ tr td:last-child {
    #nav-toggle:checked ~ .main-content header{
        width: calc(100% -70px);
        left: 70p x;
+   }
+
+
+  .cards input{
+    border-radius: 20px;
+    padding: 0.2rem 4rem;
+    text-align: center;
+    border-color: #042c6e;
    }
