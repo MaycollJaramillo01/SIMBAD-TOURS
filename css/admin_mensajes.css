@@ -181,8 +181,8 @@ main {
 .recent-grid {
   margin-top: 3.5rem;
   display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: 65% auto;
+  grid-gap:0;
+  
 }
 
 .card {
@@ -253,12 +253,6 @@ tr td:last-child {
   overflow-x: auto;
 }
 
-.customer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 0.7rem;
-}
 
 .info {
   display: flex;
